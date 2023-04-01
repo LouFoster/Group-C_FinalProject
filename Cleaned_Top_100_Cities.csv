@@ -1,4 +1,4 @@
-,Country,City,Region,Population,Latitude,Longitude
+ID,Country,City,Region,Population,Latitude,Longitude
 0,jp,Tokyo,40,31480498.0,35.685,139.751389
 1,cn,Shanghai,23,14608512.0,31.045556,121.399722
 2,in,Bombay,16.0,12692717.0,18.975,72.82583299999999
