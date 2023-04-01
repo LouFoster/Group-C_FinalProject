@@ -73,7 +73,7 @@ Skill Sets
 
 Lou: Data Collection
 
-Tom and Adam: Tabloula 
+Tom and Adam: Tableau
 
 Adam: Set up database 
 url = "https://api.openweathermap.org/data/2.5/air_pollution/history?lat=51.5072&lon=0.1276&start=1640995200&end=1661971200&appid=6dc244aefdc1601dd829f060569da2bc"# Get weather data
