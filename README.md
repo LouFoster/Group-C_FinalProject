@@ -84,21 +84,6 @@ weather_json = weather_response.json()
 
 print(weather_json)
 
-Christian: Machine Learning /Unlearned Training 
-
-https://www.kaggle.com/datasets
-
-kaggle.com
-Find Open Datasets and Machine Learning Projects | Kaggle
-
-Download Open Datasets on 1000s of Projects + Share Projects on One Platform. Explore Popular Topics Like Government, Sports, Medicine, Fintech, Food, More. Flexible Data Ingestion.
-
-
-
-Current air pollution data
-
-API call
-
 http://api.openweathermap.org/data/2.5/air_pollution?lat={lat}&lon={lon}&appid={API key}
 
 Adam able to get into
@@ -110,5 +95,9 @@ API call
 http://api.openweathermap.org/data/2.5/air_pollution/history?lat={lat}&lon={lon}&start={start}&end={end}&appid={API key}
 
 
+Christian: Machine Learning Model
+
+Population data
+https://www.kaggle.com/datasets
 
 
