@@ -94,6 +94,15 @@ API call
 
 http://api.openweathermap.org/data/2.5/air_pollution/history?lat={lat}&lon={lon}&start={start}&end={end}&appid={API key}
 
+## Database
+
+The database has three tables, city, air_pollution_by_city and air_quality_lookup. The city table holds all the cities we pulled data on
+
+using the API. The columns in the city table are as follows, 'id', 'country','city', 'population','latitude','longitude'. The air_pollution_by_city
+
+table holds the API data we pulled. The columns are as follows, 'id', 'date', 'air_quality_index', 'so2, 'no2', 'pm10',pm2point5', 'o3', 'co',
+
+'city_id'. The last table is the 'air_quality_lookup' table which maps the air_qulaity_index to a description of the air quality. 
 
 Christian: Machine Learning Model
 
