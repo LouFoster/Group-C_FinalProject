@@ -86,7 +86,7 @@ print(weather_json)
 
 http://api.openweathermap.org/data/2.5/air_pollution?lat={lat}&lon={lon}&appid={API key}
 
-Adam able to get into
+Adam was able to get into
 
 Historical air pollution data
 
@@ -104,9 +104,15 @@ table holds the API data we pulled. The columns are as follows, 'id', 'date', 'a
 
 'city_id'. The last table is the 'air_quality_lookup' table which maps the air_qulaity_index to a description of the air quality. 
 
-Christian: Machine Learning Model
-
 Population data
 https://www.kaggle.com/datasets
+
+## Machine Learning Model
+We used a logistic regression model to predict the air pollution index level of each city based on polluting gases such as Carbon monoxide (CO), Nitrogen monoxide (NO), Nitrogen dioxide (NO2), Ozone (O3), Sulphur dioxide (SO2), Ammonia (NH3), and particulates (PM2.5 and PM10).
+
+We made Air Quality our target value to predit whether a city had a score between 1 and 4.
+
+We also decided to drop the column'date' to recieve a higher prediction score. 
+
 
 
