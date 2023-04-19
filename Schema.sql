@@ -16,7 +16,7 @@ CREATE TABLE city(
 CREATE TABLE air_pollution_by_city (
   id serial PRIMARY KEY NOT NULL,
   city TEXT,
-  date date,
+  date timestamp,
   air_quality_index INT,
   so2 decimal,
   no2 decimal,
@@ -36,6 +36,12 @@ CREATE TABLE air_quality_lookup (
 --Add City_Id to Air Pollution Table
 ALTER TABLE air_pollution_by_city
 ADD COLUMN city_id int ;
+
+--Update Air_Pollution_by_City
+update air_pollution_by_city
+set city_id = city.id
+from city
+where city.city = air_pollution_by_city.city
 
 --Add Constraint
 Alter Table air_pollution_by_city
