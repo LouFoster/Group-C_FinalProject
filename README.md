@@ -35,7 +35,6 @@ This project will focus on data analysis of air quality in a variety of cities t
 
 
 
-A machine learning model, including a confusion matrix and an accuracy score. (10 points)
 
 
 
@@ -45,10 +44,10 @@ A machine learning model, including a confusion matrix and an accuracy score. (1
 
  
 ##Recommendations, Obverstions and Project Hypothesis
+![image](https://user-images.githubusercontent.com/117233641/233239310-56b45d27-0e46-4d40-b9f7-0bc5047aa9c0.png)
 
 
-
-
+A machine learning model, including a confusion matrix and an accuracy score. (10 points)
 
 ## Machine Learning Model
 We used a logistic regression model to predict the air pollution index level of each city based on polluting gases such as Carbon monoxide (CO), Nitrogen monoxide (NO), Nitrogen dioxide (NO2), Ozone (O3), Sulphur dioxide (SO2), Ammonia (NH3), and particulates (PM2.5 and PM10).
