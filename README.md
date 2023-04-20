@@ -48,7 +48,9 @@ A dashboard that has at least one interactive element. (5 points)
  
 ##Recommendations, Obverstions and Project Hypothesis
 
-![image](https://user-images.githubusercontent.com/117233641/233239310-56b45d27-0e46-4d40-b9f7-0bc5047aa9c0.png)
+![image](https://user-images.githubusercontent.com/117233641/233241370-882ba97f-e02f-4a71-b836-b5f24c5e342f.png)
+
+![image](https://user-images.githubusercontent.com/117233641/233241461-50b5fe57-03dd-48dc-acf6-b1e1d50cefaf.png)
 
 
 A machine learning model, including a confusion matrix and an accuracy score. (10 points)
