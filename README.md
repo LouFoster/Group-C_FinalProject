@@ -33,20 +33,21 @@ This project will focus on data analysis of air quality in a variety of cities t
 
 ![image](https://user-images.githubusercontent.com/117233641/233237949-5d808e14-8082-474d-a339-47492baedc9a.png)
 
+
+
 A machine learning model, including a confusion matrix and an accuracy score. (10 points)
 
-![image](https://user-images.githubusercontent.com/117233641/233238020-60d02975-97a7-4cc2-9bab-48b40eeacf7f.png)
 
- 
-##Project Hypothesis
-
-![image](https://user-images.githubusercontent.com/117233641/233237978-47f9ecee-93fd-468a-b0f4-62b389a40a48.png)
 
 ##Exploratory Analysis with Visualization
 
-![image](https://user-images.githubusercontent.com/117233641/233238439-d2f2b380-0ba6-4d3d-8a68-bda050602286.png)
 
-![image](https://user-images.githubusercontent.com/117233641/233238411-cef5dc31-afa8-4e96-b1d6-00f295d6749a.png)
+
+ 
+##Recommendations, Obverstions and Project Hypothesis
+
+
+
 
 
 ## Machine Learning Model
