@@ -1,111 +1,53 @@
 # Class-Project_GroupC
 
-
-![image](https://user-images.githubusercontent.com/117233641/228967655-f00c75f4-170b-466c-934b-5e20b575e266.png)
-
-
-
-Weather Tracking to investigate Air Quality in Multiple Cities
-
-data source 
-•	weather data https://openweathermap.org/api/air-pollution
-
-•	Population Data: Tom Action Item 
-
-•	Check out Kaggle
-
-Questions for Ben/ Sasha
-
-•	get assistance in downloading cvs files from online resources
-
-•	for relevant Data from 2018/2019
-
-Overview
+##Overview
 
 This project will focus on data analysis of air quality in a variety of cities throughout the world. Our sample database consists of cities chosen at random.
 
-Proposed Cites to include for this Project.
 
-Northern Hemisphere (need to get 50 cities) 
+##PowerPoint Presentation Slides - Illustrating project status, images, descriptions, and results
 
-•	(Country) Bangladesh, (City) Dhaka
+![image](https://user-images.githubusercontent.com/117233641/233237315-52ec57fe-a8d7-44cf-80ae-f20f6f62dc91.png)
 
-•	(Country) Great Britain, (City) London, 
+![image](https://user-images.githubusercontent.com/117233641/233237498-0c6e2f37-fdc0-4e6b-b226-db56d5a15721.png)
 
-Southern Hemisphere
+![image](https://user-images.githubusercontent.com/117233641/233237591-64ab3d28-9bb0-4728-912c-4b5e261b7fc0.png)
 
-•	(Country) Brazil, (City) Rio 
+ ![image](https://user-images.githubusercontent.com/117233641/233237611-1d1229d1-4872-438e-86d8-0e2e655174a2.png)
 
-•	(Country) Africa (City) Kamplaa
- 
+![image](https://user-images.githubusercontent.com/117233641/233237762-b9d87f72-9b3e-42ae-865f-2fb3638dd007.png)
+
+
+![image](https://user-images.githubusercontent.com/117233641/233237824-6e60319e-d4cc-4c3a-95d7-8103fbe57e7f.png)
+
+
+## Ddatabases that stores the data for the project and that contains at least two tables or collections (5 points)
+
+![image](https://user-images.githubusercontent.com/117233641/233237845-34c1c05b-a408-4e65-9a43-d31c4bada61f.png)
+
+![image](https://user-images.githubusercontent.com/117233641/233237873-cba6ac1a-be81-4512-a0c4-84cbcbe1c520.png)
+
+![image](https://user-images.githubusercontent.com/117233641/233237891-a1b0ca58-ac3f-40cd-88c4-0cdc46994d10.png)
+
+![image](https://user-images.githubusercontent.com/117233641/233237917-cafb5695-87dd-4956-a18a-38c034a1c95a.png)
+
+![image](https://user-images.githubusercontent.com/117233641/233237949-5d808e14-8082-474d-a339-47492baedc9a.png)
+
+A machine learning model, including a confusion matrix and an accuracy score. (10 points)
+
+![image](https://user-images.githubusercontent.com/117233641/233238020-60d02975-97a7-4cc2-9bab-48b40eeacf7f.png)
+
  
 ##Project Hypothesis
-•	cities with larger populations have lower air quality countries 
 
-•	track air quality at certain times of the year  
+![image](https://user-images.githubusercontent.com/117233641/233237978-47f9ecee-93fd-468a-b0f4-62b389a40a48.png)
 
-      o	Summertime is the worst, no matter where you are
-      o	Reports on Years vs Air Quality in both Southern and Northern Hemispheres
-•	Does the country have air quality standards laws, rules, or regulations?
+##Exploratory Analysis with Visualization
 
-##Game Plan
+![image](https://user-images.githubusercontent.com/117233641/233238439-d2f2b380-0ba6-4d3d-8a68-bda050602286.png)
 
-•	Ping API to Obtain Air Quality 
+![image](https://user-images.githubusercontent.com/117233641/233238411-cef5dc31-afa8-4e96-b1d6-00f295d6749a.png)
 
-•	Manually look up lat and lng for cities
-
-•	Save to dictionary 
-
-•	Convert to dataframe
-
-•	Import into a database 
-
-•	Visualization
-
-•	Machine Learning 
-
- air quality standards as per https://openweathermap.org/api/air-pollution
- 
-
-
-
-Skill Sets
-
-Lou: Data Collection
-
-Tom and Adam: Tableau
-
-Adam: Set up database 
-url = "https://api.openweathermap.org/data/2.5/air_pollution/history?lat=51.5072&lon=0.1276&start=1640995200&end=1661971200&appid=6dc244aefdc1601dd829f060569da2bc"# Get weather data
-
-weather_response = requests.get(url)
-
-weather_json = weather_response.json()
-
-print(weather_json)
-
-http://api.openweathermap.org/data/2.5/air_pollution?lat={lat}&lon={lon}&appid={API key}
-
-Adam was able to get into
-
-Historical air pollution data
-
-API call
-
-http://api.openweathermap.org/data/2.5/air_pollution/history?lat={lat}&lon={lon}&start={start}&end={end}&appid={API key}
-
-## Database
-
-The database has three tables, city, air_pollution_by_city and air_quality_lookup. The city table holds all the cities we pulled data on
-
-using the API. The columns in the city table are as follows, 'id', 'country','city', 'population','latitude','longitude'. The air_pollution_by_city
-
-table holds the API data we pulled. The columns are as follows, 'id', 'date', 'air_quality_index', 'so2, 'no2', 'pm10',pm2point5', 'o3', 'co',
-
-'city_id'. The last table is the 'air_quality_lookup' table which maps the air_qulaity_index to a description of the air quality. 
-
-Population data
-https://www.kaggle.com/datasets
 
 ## Machine Learning Model
 We used a logistic regression model to predict the air pollution index level of each city based on polluting gases such as Carbon monoxide (CO), Nitrogen monoxide (NO), Nitrogen dioxide (NO2), Ozone (O3), Sulphur dioxide (SO2), Ammonia (NH3), and particulates (PM2.5 and PM10).
