@@ -40,10 +40,14 @@ This project will focus on data analysis of air quality in a variety of cities t
 
 ##Exploratory Analysis with Visualization
 
+A dashboard that has at least one interactive element. (5 points)
+
+![image](https://user-images.githubusercontent.com/117233641/233240169-44a36022-d025-44f2-bf14-34d1dcc8147a.png)
 
 
  
 ##Recommendations, Obverstions and Project Hypothesis
+
 ![image](https://user-images.githubusercontent.com/117233641/233239310-56b45d27-0e46-4d40-b9f7-0bc5047aa9c0.png)
 
 
