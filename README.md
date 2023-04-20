@@ -56,6 +56,10 @@ A dashboard that has at least one interactive element. (5 points)
 A machine learning model, including a confusion matrix and an accuracy score. (10 points)
 
 ## Machine Learning Model
+
+![image](https://user-images.githubusercontent.com/117233641/233241917-877c7f2a-a8b2-4298-b641-883da158edb0.png)
+
+
 We used a logistic regression model to predict the air pollution index level of each city based on polluting gases such as Carbon monoxide (CO), Nitrogen monoxide (NO), Nitrogen dioxide (NO2), Ozone (O3), Sulphur dioxide (SO2), Ammonia (NH3), and particulates (PM2.5 and PM10).
 
 We made Air Quality our target value to predit whether a city had a score between 1 and 4.
